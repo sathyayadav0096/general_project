@@ -155,7 +155,7 @@ class _ForgotPageState extends State<ForgotPage> {
                                                 color: Colors.red))
                                       ]),
                                     )
-                                  : RaisedButton(
+                                  : ElevatedButton(
                                       onPressed: () {
                                         print(notp);
                                         if (emailcontroller.text.isNotEmpty) {
@@ -185,7 +185,7 @@ class _ForgotPageState extends State<ForgotPage> {
                                           ));
                                         }
                                       },
-                                      color: text_blueColor,
+                                      //color: text_blueColor,
                                       child: Text("Send OTP",
                                           style: TextStyle(color: c_White))),
                               email == true
@@ -350,8 +350,8 @@ class _ForgotPageState extends State<ForgotPage> {
                               Row(
                                 mainAxisAlignment: MainAxisAlignment.end,
                                 children: [
-                                  RaisedButton(
-                                      color: Colors.white,
+                                  ElevatedButton(
+                                      //color: Colors.white,
                                       onPressed: () {
                                         Navigator.pop(context);
                                       },
@@ -362,8 +362,8 @@ class _ForgotPageState extends State<ForgotPage> {
                                   SizedBox(
                                     width: 10,
                                   ),
-                                  RaisedButton(
-                                      color: Colors.blue,
+                                  ElevatedButton(
+                                      //color: Colors.blue,
                                       onPressed: () {
                                         if (emailcontroller.text.isEmpty) {
                                           ScaffoldMessenger.of(context)
@@ -639,7 +639,7 @@ class _ForgotPageState extends State<ForgotPage> {
                                                       color: Colors.red))
                                             ]),
                                           )
-                                        : RaisedButton(
+                                        : ElevatedButton(
                                             onPressed: () {
                                               print(notp);
                                               if (emailcontroller
@@ -674,7 +674,7 @@ class _ForgotPageState extends State<ForgotPage> {
                                                 ));
                                               }
                                             },
-                                            color: text_blueColor,
+                                            //color: text_blueColor,
                                             child: Text("Send OTP")),
                                     email == true
                                         ? SizedBox(
@@ -848,8 +848,8 @@ class _ForgotPageState extends State<ForgotPage> {
                                     Row(
                                       mainAxisAlignment: MainAxisAlignment.end,
                                       children: [
-                                        RaisedButton(
-                                            color: Colors.white,
+                                        ElevatedButton(
+                                            //color: Colors.white,
                                             onPressed: () {
                                               Navigator.pop(context);
                                             },
@@ -861,8 +861,8 @@ class _ForgotPageState extends State<ForgotPage> {
                                         SizedBox(
                                           width: 10,
                                         ),
-                                        RaisedButton(
-                                            color: Colors.blue,
+                                        ElevatedButton(
+                                            //color: Colors.blue,
                                             onPressed: () {
                                               if (emailcontroller
                                                   .text.isEmpty) {
