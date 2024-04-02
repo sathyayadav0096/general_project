@@ -16,7 +16,7 @@ class MyHttpOverrides extends HttpOverrides {
     return httpClient;
   }
 }
-
+// delete
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   HttpOverrides.global = MyHttpOverrides();
